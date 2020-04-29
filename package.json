@@ -1,0 +1,24 @@
+{
+  "name": "testunittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "mongodb": "^3.3.0-beta2",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test1": "mocha test/back/lesson01.test.js",
+    "test2": "mocha test/back/lesson02.test.js",
+    "test3": "mocha test/back/lesson03.test.js",
+    "test4": "mocha test/back/lesson04.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
